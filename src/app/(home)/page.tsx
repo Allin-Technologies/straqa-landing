@@ -34,7 +34,11 @@ export default function Home() {
                 <Button asChild className='px-7 lg:px-10'>
                   <Link href='#contact__form'>Get started</Link>
                 </Button>
-                <Button asChild variant='outline' className='px-7 lg:px-10'>
+                <Button
+                  asChild
+                  variant='outline'
+                  className='px-7 lg:px-10 bg-transparent'
+                >
                   <Link href='#contact__form'>Book a Demo</Link>
                 </Button>
               </div>

@@ -3,7 +3,6 @@ import type { NextConfig } from "next";
 import redirects from "./redirects";
 
 const nextConfig: NextConfig = {
-  output: "standalone",
   reactStrictMode: true,
   redirects,
   async rewrites() {

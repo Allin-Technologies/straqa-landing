@@ -10,6 +10,7 @@ import {
 import AutoPlay from "embla-carousel-autoplay";
 // import AutoScroll from "embla-carousel-auto-scroll";
 import { Card, CardContent } from "@/components/ui/card";
+import Image from "next/image";
 
 export function Specs() {
   return (
@@ -42,14 +43,20 @@ export function Specs() {
           className='w-full'
         >
           <CarouselContent>
-            {features.map(({ icon: Icon, ...feature }, index) => (
+            {features.map(({ icon, ...feature }, index) => (
               <CarouselItem
                 key={index}
                 className='basis-full md:basis-1/2 lg:basis-[33%] 2xl:basis-1/4 h-full'
               >
                 <Card className='shadow-[hsla(207,51%,46%,0.04)] lg:aspect-[1.3/1] h-full'>
                   <CardContent className='pt-6 space-y-5 h-full'>
-                    <Icon className='size-10' />
+                    <Image
+                      src={icon}
+                      alt=''
+                      width={100}
+                      height={100}
+                      className='size-10'
+                    />
                     <div className='space-y-1'>
                       <h5 className='text-2xl'>{feature.title}</h5>
                       <p className='lg:text-sm'>{feature.desc}</p>

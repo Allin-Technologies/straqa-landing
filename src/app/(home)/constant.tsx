@@ -1,28 +1,28 @@
-import Analytics from "@/assets/icons/Analytics.svg?url";
-import Collection from "@/assets/icons/Collection.svg?url";
-import Payment from "@/assets/icons/Payments.svg?url";
-import Optimization from "@/assets/icons/Optimization.svg?url";
+// import Analytics from "@/assets/icons/Analytics.svg?url";
+// import Collection from "@/assets/icons/Collection.svg?url";
+// import Payment from "@/assets/icons/Payments.svg?url";
+// import Optimization from "@/assets/icons/Optimization.svg?url";
 
 export const features = [
   {
     title: "AI-Driven Analytics",
     desc: "Gain actionable insights with advanced AI-powered tools that turn raw data into meaningful results.",
-    icon: Analytics,
+    icon: "/icons/Analytics.svg",
   },
   {
     title: "Seamless Data Collection",
     desc: "Simplify the process of gathering, organizing, and managing valuable data efficiently.",
-    icon: Collection,
+    icon: "/icons/Collection.svg",
   },
   {
     title: "Integrated Payment Processing",
     desc: "Handle multi-currency transactions effortlessly, all within a single platform.",
-    icon: Payment,
+    icon: "/icons/Payments.svg",
   },
   {
     title: "Workflow Optimization",
     desc: "Streamline operations with smart automation, saving time and improving productivity..",
-    icon: Optimization,
+    icon: "/icons/Optimization.svg",
   },
 ];
 
