@@ -40,20 +40,20 @@ export default function RootLayout({
           media='(prefers-color-scheme: dark)'
         />
       </Head>
-      <ReactLenis root>
-        <body
-          className={cn(
-            geistSans.variable,
-            geistMono.variable,
-            "font-sans scroll-smooth antialiased w-screen overflow-hidden"
-          )}
-        >
-          <Header />
-          {children}
-          <Footer />
-          <Toaster />
-        </body>
-      </ReactLenis>
+      {/* <ReactLenis root> */}
+      <body
+        className={cn(
+          geistSans.variable,
+          geistMono.variable,
+          "font-sans scroll-smooth antialiased w-screen overflow-hidden"
+        )}
+      >
+        <Header />
+        {children}
+        <Footer />
+        <Toaster />
+      </body>
+      {/* </ReactLenis> */}
     </html>
   );
 }
