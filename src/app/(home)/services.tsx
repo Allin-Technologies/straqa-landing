@@ -12,6 +12,7 @@ import Autoplay from "embla-carousel-autoplay";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import Stars from "@/assets/stars.svg";
 
 const cardData = [
   {
@@ -42,7 +43,11 @@ export function Services() {
   );
 
   return (
-    <div className='pb-16'>
+    <div className='pb-16 relative'>
+      <div className='-z-[1] pointer-events-none absolute bottom-0 left-1/2 -translate-x-1/2 max-w-[100vw] w-screen'>
+        <Stars className='w-full' />
+      </div>
+
       <div className='container space-y-12'>
         <div className='text-center space-y-1'>
           <p className='uppercase lg:text-lg opacity-50 leading-none tracking-tight'>
@@ -61,7 +66,6 @@ export function Services() {
           <CarouselContent>
             {[...cardData, ...cardData].map((data, index) => (
               <CarouselItem
-                // aspect-video lg:aspect-[1.5/1]
                 key={index}
                 className='basis-full md:basis-1/2 lg:basis-[33%] h-full'
               >

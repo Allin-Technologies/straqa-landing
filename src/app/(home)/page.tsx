@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import { Features } from "./features";
 import { Services } from "./services";
@@ -7,16 +7,11 @@ import { Customers } from "./customers";
 import { Specs } from "./specs";
 import { Reviews } from "./reviews";
 import { Contact } from "@/components/contact";
-import AILayout from "@/assets/ai-layout.svg";
 
 export default function Home() {
   return (
-    <article className='pt-16 pb-24'>
+    <article className='pt-16 pb-24 lg:pt-32'>
       <div className='realtive w-screen overflow-hidden'>
-        {/* AILayout */}
-        <div className='-z-[1] pointer-events-none absolute bottom-0 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-[100vw] w-screen overflow-hidden'>
-          <AILayout />
-        </div>
         <div
           id='hero'
           className='relative mt-12 lg:mt-[12vh] flex items-center justify-center text-white'
@@ -36,10 +31,10 @@ export default function Home() {
               </div>
 
               <div className='flex gap-4'>
-                <Button asChild>
+                <Button asChild className='px-7 lg:px-10'>
                   <Link href='#contact__form'>Get started</Link>
                 </Button>
-                <Button asChild variant='outline'>
+                <Button asChild variant='outline' className='px-7 lg:px-10'>
                   <Link href='#contact__form'>Book a Demo</Link>
                 </Button>
               </div>
@@ -51,6 +46,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+
         <Features />
       </div>
       <Services />
