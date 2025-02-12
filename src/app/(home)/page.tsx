@@ -39,7 +39,9 @@ export default function Home() {
                   variant='outline'
                   className='px-7 lg:px-10 bg-transparent'
                 >
-                  <Link href='#contact__form'>Book a Demo</Link>
+                  <Link href='https://calendly.com/straqa-support/bookademo'>
+                    Book a Demo
+                  </Link>
                 </Button>
               </div>
             </div>

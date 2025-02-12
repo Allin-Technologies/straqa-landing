@@ -78,7 +78,9 @@ export function Services() {
 
                     <div>
                       <Button>
-                        <Link href='#'>Book a Demo</Link>
+                        <Link href='https://calendly.com/straqa-support/bookademo'>
+                          Book a Demo
+                        </Link>
                       </Button>
                     </div>
                   </CardContent>

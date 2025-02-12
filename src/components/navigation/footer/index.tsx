@@ -18,7 +18,9 @@ export function Footer() {
 
             <div className='grid gap-2'>
               <Link href='#about__'>About us</Link>
-              <Link href='#'>Book a Demo</Link>
+              <Link href='https://calendly.com/straqa-support/bookademo'>
+                Book a Demo
+              </Link>
             </div>
           </div>
 
