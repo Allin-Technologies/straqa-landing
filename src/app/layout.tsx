@@ -45,7 +45,7 @@ export default function RootLayout({
         className={cn(
           geistSans.variable,
           geistMono.variable,
-          "font-sans scroll-smooth antialiased w-screen overflow-hidden"
+          "font-sans scroll-smooth antialiased w-screen overflow-x-hidden"
         )}
       >
         <Header />
