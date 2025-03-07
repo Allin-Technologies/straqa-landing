@@ -20,13 +20,11 @@ export default function Home() {
             <div className='col-span-9 space-y-6'>
               <div className='space-y-3'>
                 <h1 className='text-[2.5rem] lg:text-[3.5rem] xl:text-[4.5rem] leading-tight'>
-                  Transforming Payments and Analytics for Every Sector
+                  AI-Powered Solutions to Grow, Manage, and Scale Your Business
                 </h1>
                 <p className='text-xl bg-gradient-to-br from-white to-white/60 bg-clip-text text-transparent'>
-                  — Welcome to Straqa, where we leverage AI to revolutionize
-                  your payment processes and analytics. Our platform is designed
-                  to streamline operations across diverse industries, ensuring
-                  efficiency and growth.
+                  — Everything you need to take your business online, boost
+                  sales, and manage operations—all in one platform.
                 </p>
               </div>
 

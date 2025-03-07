@@ -43,17 +43,20 @@ export function Services() {
   );
 
   return (
-    <div className='pb-16 relative'>
+    <div className='py-16 relative'>
       <div className='-z-[1] pointer-events-none absolute bottom-0 left-1/2 -translate-x-1/2 max-w-[100vw] w-screen'>
         <Stars className='w-full' />
       </div>
 
       <div className='container space-y-12'>
-        <div className='text-center space-y-1'>
+        <div className='text-center space-y-1 lg:max-w-[75%] mx-auto'>
           <p className='uppercase lg:text-lg opacity-50 leading-none tracking-tight'>
-            VALUED CUSTOMERS
+            INNOVATION
           </p>
-          <h2 className='text-[32px] leading-none'>Meet Some of our Users</h2>
+          <h2 className='text-[32px] leading-none text-balance'>
+            Discover the Transformative Power of Straqa Across Diverse
+            Industries
+          </h2>
         </div>
 
         <Carousel
