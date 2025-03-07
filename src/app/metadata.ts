@@ -23,7 +23,8 @@ export const keywords = [
 
 export const metadata: Metadata = {
   title: "Straqa",
-  description: "",
+  description:
+    "AI-Powered Solutions to Grow, Manage, and Scale Your Business, Straqa is everything you need to take your business online, boost sales, and manage operations—all in one platform.",
   keywords,
   twitter: {
     card: "summary_large_image",
