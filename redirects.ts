@@ -16,7 +16,7 @@ const redirects = async () => {
     internetExplorerRedirect,
     {
       source: "/demo",
-      destination: "https://youtu.be/4uyORDrAdb0",
+      destination: "https://youtu.be/QPx52UNhkRc",
       permanent: true,
     },
   ];
